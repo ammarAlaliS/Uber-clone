@@ -1,12 +1,21 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { Provider } from 'react-redux';
+import  store  from './store';
+
+// 1) paso numero uno antes de arrancar el proyecto set up redux npm install @reduxjs/toolkit
+// 
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Provider store={store}>
+      <View style={styles.container}>
+        <Text>Uber clone</Text>
+        <StatusBar style="auto" />
+      </View>
+
+    </Provider>
+
   );
 }
 
