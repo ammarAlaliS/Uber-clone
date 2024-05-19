@@ -12,7 +12,7 @@ import MapScreen from './screens/MapScreen';
 // 3) se agrego  "react-native-elements": "^3.4.3", "react-native-safe-area-context": "^4.10.1", "react-native-vector-icons": "^10.1.0",from https://reactnativeelements.com/docs/installation
 // 4) add navegations 
 // add react-native-google-places-autocomplete npm install react-native-google-places-autocomplete --save
-
+// add react-native-maps
 const Stack = createStackNavigator();
 export default function App() {
   return (
