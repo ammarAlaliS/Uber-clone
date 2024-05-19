@@ -1,5 +1,7 @@
+import { Icon } from '@rneui/base';
 import React from 'react';
 import { View, Text, FlatList, TouchableOpacity, Image } from 'react-native';
+
 
 const data = [
     {
@@ -31,6 +33,13 @@ const NavOptions = () => {
                             style={{ width: 120, height: 120, resizeMode: 'contain' }}
                         />
                         <Text className=" mt-2 text-lg font-semibold">{item.title}</Text>
+                        <Icon style={{
+                            padding: 8, 
+                            backgroundColor: '#000', 
+                            borderRadius: '50%', 
+                            width: 40, 
+                            marginTop:8
+                        }}  name='arrowright' color="white" type='antdesign'/>
                     </View>
                 </TouchableOpacity>
             )}
