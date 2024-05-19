@@ -6,8 +6,6 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import MapScreen from './screens/MapScreen';
-import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
-import {GOOGLE_MAPS_APIKEY} from '@env'
 
 // 1) paso numero uno antes de arrancar el proyecto set up redux npm install @reduxjs/toolkit
 // 2) agregar tailwind-react-native-classnames from https://www.nativewind.dev/quick-starts/expo

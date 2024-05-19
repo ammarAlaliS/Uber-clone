@@ -14,7 +14,7 @@ const data = [
     {
         id: "456",
         title: "Order food",
-        image: "https://links.papareact.com/2Bw",
+        image: "https://links.papareact.com/3pn",
         screen: "MapScreen",
     },
 
